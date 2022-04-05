@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: rgb(0, 66, 121);
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 100px auto;
+    background-color: whitesmoke;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form input {
+    height: 40px;
+    padding: 0 10px;
+}
+
+form input:focus {
+    outline: 1px solid rgb(0, 66, 121);
+    border: none;
+}
+
+form h1 {
+    margin-top: 20px;
+}
+
+form button {
+    cursor: pointer;
+    margin: auto;
+    border: none;
+    width: 30%;
+    height: 40px;
+    background-color: rgb(0, 66, 121);
+    color: whitesmoke;
+    font-size: large;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background-color: rgb(0, 133, 221);
+}
+
+form button:active {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tabela {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.res {
+    margin-top: 40px;
+}
+
+.aprovado {
+    color: rgb(18, 196, 107);
+}
+
+.reprovado {
+    color: red;
+}
