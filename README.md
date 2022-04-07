@@ -15,7 +15,7 @@
 
 ### Screenshot
 
-![Screenshot](/img/Screenshot 2022-04-07 112142.png)
+![Screenshot](/assets/img/Screenshot 2022-04-07 112142.png)
 
 ### Links
 
