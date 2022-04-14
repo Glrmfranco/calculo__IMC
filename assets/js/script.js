@@ -1,5 +1,5 @@
 function meuEscopo() {
-    const form = document.querySelector('.form')
+    const form = document.querySelector('.form');
 
     function calcularIMC(evento) {
         evento.preventDefault();
@@ -41,7 +41,7 @@ function meuEscopo() {
     form.addEventListener('submit', calcularIMC);
 
     function pegarImc(peso, altura) {
-        const imc = (peso / (altura * altura));
+        const imc = peso / (altura * altura);
         return imc.toFixed(1);
     }
     function criaP() {
