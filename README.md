@@ -15,7 +15,7 @@
 
 ### Screenshot
 
-![](/images/Screenshot 2022-04-07 112142.png)
+![](https://github.com/Glrmfranco/calculo__IMC/blob/main/assets/img/Screenshot%202022-04-07%20112142.png?raw=true)
 
 ### Links
 
