@@ -62,11 +62,9 @@ function meuEscopo() {
         res.appendChild(p);
     }
 
-    document.addEventListener('keydown', function (event) {
-        if (event.keyCode != 46 && event.keyCode != 8) {
-            var i = document.getElementById('txtaltura').value.length;
-            if (i === 1) document.getElementById('txtaltura').value = document.getElementById('txtaltura').value + '.';
-        }
+    document.addEventListener('keydown', function () {
+        var i = document.getElementById('txtaltura').value.length;
+        if (i === 1) document.getElementById('txtaltura').value = document.getElementById('txtaltura').value + '.';
     });
 }
 meuEscopo();
